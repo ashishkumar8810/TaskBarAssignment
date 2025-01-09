@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Task Manager</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="auth-container">
+        <div class="auth-content">
+            <h1>Register</h1>
+            <form id="registerForm">
+                <div class="input-group">
+                    <input type="text" id="newUsername" placeholder="Enter Username" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="newPassword" placeholder="Enter Password" required>
+                    <input type="checkbox" id="showPasswordRegister"> <label for="showPasswordRegister">Show Password</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+            <p>Already have an account? <a href="login.html" class="btn btn-link">Login here</a></p>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
